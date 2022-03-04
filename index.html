@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Facebook Signup</title>
+</head>
+<body>
+    <div class="bg-primary" style="height: 100px;">
+        <div class="d-flex justify-content-start ps-3">
+             
+            <P class="fs-2 fw-bold text-light me-5 pt-3">Facebook</P>
+            <div class="mt-2">
+              <p class="text-light mb-0" >Email or Phone </P>
+              <div class="bg-light "  style="height: 30px; width: 180px;"></div>
+            </div>
+            <div class="ms-4 mt-2">
+              <p class="text-light mb-0 ">Password </p>
+              <div class="bg-light   " style="height: 30px;width: 180px;"></div>
+              <p class="text-Dark">Forgot your password?</p>
+              
+            </div>
+            <div class="ms-4 mt-2">
+                <button class="bg-primary text-light mt-4">LOG IN</button>
+            </div>
+            
+        </div>           
+      
+    
+    </div>
+    <h1 class="ps-5 mt-2">Sign Up</h1>
+    <p class=" ps-5 fw-normal">It's free and always will be</p>>
+    <div class="d-flex ms-5 mb-3">
+        <div >
+            <input class="form-control mt-4 " style="width: 200px;"  type="text" placeholder="First name" aria-label="First name example">
+        </div>
+        <div>
+            <p class="fs-6 fw-normal text-primary ps-5 mb-0">No mobile number?</p>
+            <input class="form-control ms-5 " style="width: 200px;"  type="text" placeholder="Last name" aria-label="Last name example">
+        </div>
+    </div>
+    <input class="form-control ms-5 mb-3" style="width: 450px;"  type="text" placeholder="Mobile number" aria-label="Mobile number example">
+    <input class="form-control ms-5 mb-3" style="width: 450px;" type="text" placeholder="Re-enter mobile number" aria-label="Re-enter mobile number example">
+    <input class="form-control ms-5 mb-3" style="width: 450px;" type="text" placeholder="New password" aria-label="New password example">
+    <h2 class="ps-5 mb-3">Birthday</h2>
+    <div class="btn-group ps-5" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group" role="group">
+         <button id="btnGroupDrop1" class="btn btn-light border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Month</button>
+         <ul class="dropdown-menu" aria-labelledby="btnGroup1">
+            <li>January</li>
+            <li>February</li>
+            <li>March</li>
+            <li>April</li>
+            <li>May</li>
+            <li>June</li>
+            <li>July</li>
+            <li>August</li>
+            <li>September</li>
+            <li>October</li>
+            <li>November</li>
+            <li>December</li>
+         </ul>
+        </div>
+
+       <div class="btn-group" role="group">
+          <button id="btnGroupDrop2" class="btn btn-light border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Day</button>
+           <ul class="dropdown-menu" aria-labelledby="btnGroup2">
+             <li>01</li><li>02</li><li>03</li><li>04</li><li>05</li><li>06</li><li>07</li><li>08</li><li>09</li><li>10</li>
+             <li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li><li>19</li><li>20</li>
+             <li>21</li><li>22</li>23<li></li>24<li></li>25<li>26</li><li></li>27<li></li><li>28</li><li>29</li><li>30</li>
+           </ul>
+       </div>
+    
+        <div class="btn-group" role="group">
+           <button id="btnGroupDrop1" type="button" class="btn btn-light border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+             Year
+           </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+             <li>1971-1980</li>
+             <li>1981-1990</li>
+             <li>1991-2000</li>
+             <li>2001-2010</li>
+             <li>2011-2020</li>
+             <li>2021-2023</li>
+           </ul>
+         <p class="fs-6 fw-normal text-primary ms-3">why do i need to provide my birthday?</p>
+       </div>
+    </div>
+    <br>
+    <br>    
+    <div class="d-flex ms-5">
+        <div>
+         <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault">
+         <label class="form-check-label1" for="flexradioDefault1">Female</label>
+        </div>
+        <div class="ms-4">
+            <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault">
+            <label class="form-check-label1" for="flexradioDefault1">Male</label>
+        </div>
+
+    </div>
+    <br>
+    <p class=" fs-6 ms-5 mb-0">By clicking sign up, you agree to our terms and that you have</p>
+    <P class=" fs-6 ms-5 mb-4">read our Data policy, including our Cookie Use</P>
+    <div class="ms-5  mb-5 ps-5 text-light bg-success   border-4 rounded" style="height: 30px; width: 170px;">Sign Up</div> 
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+</html>
